@@ -1,6 +1,6 @@
 # Hi, I'm Nikhil Mastud 👋
 
-### AWS Cloud & DevOps Engineer
+### AWS Cloud & DevOps | Cloud Engineer Trainee
 
 AWS Certified Cloud Practitioner with hands-on experience in **AWS, Linux, Docker, Git, Terraform, and CI/CD** through cloud projects and internship experience.
 
@@ -64,7 +64,6 @@ Three-tier cloud application architecture using **AWS networking, compute, load 
 ## 📫 Connect
 
 - GitHub: [@nikhilmastud](https://github.com/nikhilmastud)
-- LinkedIn: [Nikhil Mastud](https://www.linkedin.com/)
 
 ---
 
