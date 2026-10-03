@@ -22,17 +22,22 @@ I focus on building practical cloud infrastructure, automation, containerized ap
 ## 🚀 Featured Projects
 
 ### Automated Image Processing System
+
 Event-driven serverless image processing using **Amazon S3, AWS Lambda, IAM, CloudWatch, Python and Pillow**.
 
 **S3 Upload → Event Trigger → Lambda → Image Processing → Destination S3 → CloudWatch**
 
 ### NovaPay Zero-Downtime CI/CD
+
 Containerized Spring Boot application with **GitHub, Jenkins, Docker, Amazon ECR, ECS Fargate and Application Load Balancer**.
 
 **GitHub → Jenkins → Maven → Docker → ECR → ECS Fargate → ALB**
 
 ### Netflix-Style 3-Tier Application
+
 Three-tier cloud application architecture using **AWS networking, compute, load balancing, database and monitoring services**.
+
+**Users → ALB → EC2 → RDS**
 
 ---
 
