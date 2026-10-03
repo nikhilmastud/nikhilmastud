@@ -69,6 +69,7 @@ Three-tier cloud application architecture using **AWS networking, compute, load 
 ## 📫 Connect
 
 - GitHub: [@nikhilmastud](https://github.com/nikhilmastud)
+- LinkedIn: [linkedin.com/in/nikhilmastud](https://www.linkedin.com/in/nikhilmastud)
 
 ---
 
