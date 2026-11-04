@@ -39,13 +39,13 @@ Built an event-driven serverless image-processing workflow using **Amazon S3, AW
 [View Repository](https://github.com/nikhilmastud/Automated-Image-Processing-System)
 
 ### 2. Netflix-Style 3-Tier AWS Architecture
-Designed a three-tier AWS architecture using **VPC, EC2, Application Load Balancer, Auto Scaling, Amazon RDS, and Terraform**.
+<sub>**AWS DEPLOYMENT VERIFIED**</sub>
 
-- Planned public and private subnet architecture across two Availability Zones.
-- Configured ALB path-based routing and separate Auto Scaling Groups for Nginx and Spring Boot.
-- Validated infrastructure configuration and performed load/failure testing.
+Implemented a three-tier AWS architecture using **VPC, EC2, Application Load Balancer, Auto Scaling, Amazon RDS, and Terraform**.
 
-**Status:** Architecture and testing project; AWS deployment is not yet completed.
+- Deployed the application architecture across public/private network tiers and Availability Zones.
+- Configured ALB routing and EC2 Auto Scaling for application workloads.
+- Validated the deployed environment through deployment checks and load/failure testing.
 
 [View Repository](https://github.com/nikhilmastud/Netflix-style-3-tier-application)
 
@@ -80,4 +80,3 @@ Entry-level opportunities in **AWS Cloud Engineering, Cloud Support, DevOps, and
 - **GitHub:** [github.com/nikhilmastud](https://github.com/nikhilmastud)
 
 ---
-
