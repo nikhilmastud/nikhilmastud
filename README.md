@@ -1,76 +1,83 @@
 # Hi, I'm Nikhil Mastud 👋
 
-### AWS Cloud & DevOps | Cloud Engineer Trainee
+### AWS Cloud & DevOps | AWS Certified Cloud Practitioner
 
-AWS Certified Cloud Practitioner with hands-on experience in **AWS, Linux, Docker, Git, Terraform, and CI/CD** through cloud projects and internship experience.
+Engineering graduate focused on **AWS Cloud, DevOps, and Cloud Operations**. I build hands-on projects involving cloud infrastructure, serverless applications, containerization, and CI/CD automation.
 
-I focus on building practical cloud infrastructure, automation, containerized applications, and deployment workflows.
+Currently strengthening practical skills in **AWS, Linux, Docker, Jenkins, Terraform, and cloud networking**, with project and internship experience.
 
 ---
 
-## ☁️ Cloud & DevOps
+## ☁️ Technical Skills
 
-**Cloud:** AWS (EC2, S3, VPC, IAM, RDS, Lambda, CloudWatch, ALB, Auto Scaling)  
-**DevOps:** Docker, Jenkins, GitHub Actions, CI/CD  
-**Infrastructure:** Terraform, AWS Networking, Security Groups, IAM  
-**OS & Scripting:** Linux, Ubuntu, Bash, Python  
-**Development:** Java, Spring Boot, SQL, C/C++  
-**Version Control:** Git, GitHub
+| Area | Technologies |
+|---|---|
+| **AWS Cloud** | EC2, S3, IAM, VPC, RDS, Lambda, CloudWatch, ALB, Auto Scaling, ECR |
+| **DevOps & CI/CD** | Jenkins, Docker, CI/CD, Git, GitHub |
+| **Infrastructure as Code** | Terraform |
+| **Networking** | TCP/IP, DNS, HTTP/HTTPS, Subnets, Routing, Security Groups |
+| **Operating Systems** | Linux (Ubuntu), Windows |
+| **Programming & Scripting** | Python, Java, Bash/Shell |
+| **Databases** | MySQL, MongoDB, DynamoDB |
 
 ---
 
 ## 🚀 Featured Projects
 
-### Automated Image Processing System
+### 1. Automated Image Processing System
+<sub>**AWS DEPLOYMENT VERIFIED**</sub>
 
-Event-driven serverless image processing using **Amazon S3, AWS Lambda, IAM, CloudWatch, Python and Pillow**.
+Built an event-driven serverless image-processing workflow using **Amazon S3, AWS Lambda, Python, and Pillow**, with a container-based deployment pipeline using **Jenkins, Docker, and Amazon ECR**.
 
-**S3 Upload → Event Trigger → Lambda → Image Processing → Destination S3 → CloudWatch**
+- S3 upload events trigger Lambda-based image processing.
+- Processed JPEG images are stored in a separate destination bucket.
+- Jenkins Build #8 completed successfully; the Lambda update and S3 integration test were verified.
+- **147.64 ms** recorded processing duration in the verified test run.
 
-### NovaPay Zero-Downtime CI/CD
+**Flow:** GitHub → Jenkins → Docker → ECR → Lambda ← S3 Event → Processed S3
 
-Containerized Spring Boot application with **GitHub, Jenkins, Docker, Amazon ECR, ECS Fargate and Application Load Balancer**.
+[View Repository](https://github.com/nikhilmastud/Automated-Image-Processing-System)
 
-**GitHub → Jenkins → Maven → Docker → ECR → ECS Fargate → ALB**
+### 2. Netflix-Style 3-Tier AWS Architecture
+Designed a three-tier AWS architecture using **VPC, EC2, Application Load Balancer, Auto Scaling, Amazon RDS, and Terraform**.
 
-### Netflix-Style 3-Tier Application
+- Planned public and private subnet architecture across two Availability Zones.
+- Configured ALB path-based routing and separate Auto Scaling Groups for Nginx and Spring Boot.
+- Validated infrastructure configuration and performed load/failure testing.
 
-Three-tier cloud application architecture using **AWS networking, compute, load balancing, database and monitoring services**.
+**Status:** Architecture and testing project; AWS deployment is not yet completed.
 
-**Users → ALB → EC2 → RDS**
+[View Repository](https://github.com/nikhilmastud/Netflix-style-3-tier-application)
+
+### 3. NovaPay Zero-Downtime CI/CD
+Developing a containerized Spring Boot deployment workflow using **GitHub, Jenkins, Maven, Docker, Amazon ECR, ECS Fargate, and ALB**.
+
+**Flow:** GitHub → Jenkins → Maven → Docker → ECR → ECS Fargate → ALB
+
+**Status:** In progress; end-to-end AWS deployment is not yet verified.
+
+[View Repository](https://github.com/nikhilmastud/novapay-zero-downtime-cicd)
 
 ---
 
 ## 📜 Certifications
 
-- **AWS Certified Cloud Practitioner** — Amazon Web Services
-- **Oracle Cloud Infrastructure Foundations Associate** — Oracle
-- **GitHub Fundamentals** — Simplilearn
+- [**AWS Certified Cloud Practitioner (CLF-C02)**](https://cp.certmetrics.com/amazon/en/public/verify/credential/c6bf63c29b6c457b96cf8ddd1e76f1c2) — Amazon Web Services
+- [**Oracle Cloud Infrastructure Foundations Associate**](https://catalog-education.oracle.com/pls/certview/sharebadge?id=2ED05EA432C23ADF0BC4F2F0C41D57FB1E82AB767A864AF883E73B27E2FE05CE) — Oracle
+- [**GitHub Fundamentals**](https://simpli-web.app.link/e/JjdKdscoW6b) — Simplilearn
 
 ---
 
-## 🌱 Currently Learning
+## 🎯 Career Interests
 
-- AWS Cloud Infrastructure
-- Terraform Infrastructure as Code
-- Docker & Containerization
-- CI/CD Automation
-- AWS ECS & Serverless Architecture
-- Cloud Monitoring & Security
-
----
-
-## 🎯 Career Focus
-
-**AWS Cloud Engineer | Cloud Engineer Trainee | DevOps Engineer | Cloud/DevOps Fresher**
+Entry-level opportunities in **AWS Cloud Engineering, Cloud Support, DevOps, and Cloud Operations**.
 
 ---
 
 ## 📫 Connect
 
-- GitHub: [@nikhilmastud](https://github.com/nikhilmastud)
-- LinkedIn: [linkedin.com/in/nikhilmastud](https://www.linkedin.com/in/nikhilmastud)
+- **LinkedIn:** [linkedin.com/in/nikhilmastud](https://www.linkedin.com/in/nikhilmastud/)
+- **GitHub:** [github.com/nikhilmastud](https://github.com/nikhilmastud)
 
 ---
 
-⭐ Building practical cloud projects and learning by implementing them.
