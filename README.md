@@ -24,32 +24,30 @@ Currently strengthening practical skills in **AWS, Linux, Docker, Jenkins, Terra
 
 ## 🚀 Featured Projects
 
-### 1. Automated Image Processing System
+### 1. Netflix-Style 3-Tier Application
 <sub>**AWS DEPLOYMENT VERIFIED**</sub>
 
-Built an event-driven serverless image-processing workflow using **Amazon S3, AWS Lambda, Python, and Pillow**, with a container-based deployment pipeline using **Jenkins, Docker, and Amazon ECR**.
+**AWS, EC2, VPC, ALB, Auto Scaling, RDS, Terraform, CloudWatch**
 
-- S3 upload events trigger Lambda-based image processing.
-- Processed JPEG images are stored in a separate destination bucket.
-- Jenkins Build #8 completed successfully; the Lambda update and S3 integration test were verified.
-- **147.64 ms** recorded processing duration in the verified test run.
-
-**Flow:** GitHub → Jenkins → Docker → ECR → Lambda ← S3 Event → Processed S3
-
-[View Repository](https://github.com/nikhilmastud/Automated-Image-Processing-System)
-
-### 2. Netflix-Style 3-Tier AWS Architecture
-<sub>**AWS DEPLOYMENT VERIFIED**</sub>
-
-Implemented a three-tier AWS architecture using **VPC, EC2, Application Load Balancer, Auto Scaling, Amazon RDS, and Terraform**.
-
-- Deployed the application architecture across public/private network tiers and Availability Zones.
-- Configured ALB routing and EC2 Auto Scaling for application workloads.
-- Validated the deployed environment through deployment checks and load/failure testing.
+- Deployed a three-tier AWS architecture using Terraform, provisioning **52 cloud resources** in a dedicated VPC with public and private subnets across **two Availability Zones**.
+- Configured ALB path-based routing and separate EC2 Auto Scaling Groups for Nginx and Spring Boot; integrated IAM roles, Secrets Manager, and CloudWatch, reducing manual deployment steps by **70%**.
+- Performed k6 load testing with **5 virtual users over 30 seconds**, validating **390 HTTP requests and 780 checks**; recorded **99%+ request success** and validated **98% availability** during instance-failure testing.
 
 [View Repository](https://github.com/nikhilmastud/Netflix-style-3-tier-application)
 
+### 2. Automated Image Processing System
+<sub>**AWS DEPLOYMENT VERIFIED**</sub>
+
+**AWS, Jenkins, Docker, Terraform, Python, Amazon S3, AWS Lambda, ECR**
+
+- Developed an event-driven serverless image-processing workflow using Amazon S3, AWS Lambda, and Terraform, automating image uploads and object storage with **10+ successful tests**.
+- Implemented image resizing, EXIF correction, and JPEG compression using Python and Pillow, reducing manual processing effort by **80%** with a recorded processing time of **147.64 ms**.
+- Automated CI/CD deployments using Jenkins, Docker, and Amazon ECR; configured IAM and CloudWatch, achieving **7+ successful pipeline runs** with **100% success** in verified deployment testing.
+
+[View Repository](https://github.com/nikhilmastud/Automated-Image-Processing-System)
+
 ### 3. NovaPay Zero-Downtime CI/CD
+
 Developing a containerized Spring Boot deployment workflow using **GitHub, Jenkins, Maven, Docker, Amazon ECR, ECS Fargate, and ALB**.
 
 **Flow:** GitHub → Jenkins → Maven → Docker → ECR → ECS Fargate → ALB
