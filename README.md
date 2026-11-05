@@ -46,16 +46,6 @@ Currently strengthening practical skills in **AWS, Linux, Docker, Jenkins, Terra
 
 [View Repository](https://github.com/nikhilmastud/Automated-Image-Processing-System)
 
-### 3. NovaPay Zero-Downtime CI/CD
-
-Developing a containerized Spring Boot deployment workflow using **GitHub, Jenkins, Maven, Docker, Amazon ECR, ECS Fargate, and ALB**.
-
-**Flow:** GitHub → Jenkins → Maven → Docker → ECR → ECS Fargate → ALB
-
-**Status:** In progress; end-to-end AWS deployment is not yet verified.
-
-[View Repository](https://github.com/nikhilmastud/novapay-zero-downtime-cicd)
-
 ---
 
 ## 📜 Certifications
