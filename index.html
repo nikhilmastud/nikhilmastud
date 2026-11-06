@@ -101,6 +101,17 @@ footer{margin-top:65px;padding:28px 0;border-color:#263752;color:#7f91ad}
 .skill-group .tag{font-size:.78rem}
 @media(max-width:760px){.skill-groups{grid-template-columns:1fr;gap:13px}.skill-group{min-height:0;padding:20px}}
 
+/* Horizontal skill rows — clean, scannable, responsive */
+.skill-rows{border-top:1px solid #2b3e5c;border-bottom:1px solid #2b3e5c;background:linear-gradient(120deg,rgba(15,25,43,.82),rgba(10,18,32,.65));border-radius:20px;overflow:hidden}
+.skill-row{display:grid;grid-template-columns:46px minmax(190px,.78fr) minmax(0,2fr);align-items:center;gap:20px;padding:23px 25px;border-bottom:1px solid #263a58;transition:background .2s ease}
+.skill-row:last-child{border-bottom:0}
+.skill-row:hover{background:rgba(38,61,94,.28)}
+.skill-icon{width:42px;height:42px;display:grid;place-items:center;border:1px solid #385477;border-radius:13px;background:#172a45;color:#9bcfff;font-size:1.45rem}
+.skill-category{font-size:.94rem;font-weight:760;line-height:1.45;color:#eef4ff;letter-spacing:-.02em}
+.skill-items{font-size:.9rem;line-height:1.9;color:#b9c9e0}
+.skill-items span{color:#7e9fc8;padding:0 3px}
+@media(max-width:760px){.skill-row{grid-template-columns:40px minmax(0,1fr);gap:12px 14px;padding:19px}.skill-icon{width:38px;height:38px;font-size:1.3rem}.skill-category{font-size:.9rem}.skill-items{grid-column:2;font-size:.84rem;line-height:1.85}}
+
 /* Final readability pass: skill cards and profile details */
 .skill-group{min-height:0;padding:23px 24px;background:linear-gradient(145deg,rgba(20,35,58,.98),rgba(13,23,40,.98));border-color:#304766;box-shadow:0 14px 34px #0003}
 .skill-group h3{display:flex;align-items:center;gap:10px;padding-bottom:13px;border-bottom:1px solid #2a3e5d;font-size:1rem;color:#f0f5ff}
@@ -122,11 +133,11 @@ footer{margin-top:65px;padding:28px 0;border-color:#263752;color:#7f91ad}
 <div><div class="kicker">AWS Cloud · DevOps · Cloud Operations</div><h1>Hi, I'm<br><span class="gradient">Nikhil Mastud</span></h1><p class="intro">Engineering graduate building practical cloud skills through hands-on projects. <strong>AWS Certified Cloud Practitioner</strong> focused on AWS Cloud, DevOps, and Cloud Operations.</p><div class="actions"><a class="btn primary" href="#projects">Explore projects ↓</a><a class="btn" href="https://github.com/nikhilmastud" target="_blank" rel="noopener">GitHub ↗</a><a class="btn" href="https://linkedin.com/in/nikhilmastud" target="_blank" rel="noopener">LinkedIn ↗</a></div></div>
 <aside class="profile-card"><div class="profile-top"><img class="portrait" src="profile.png" alt="Portrait of Nikhil Mastud"><a class="resume" href="Nikhil-Mastud-Resume.pdf" target="_blank" rel="noopener">Explore My Resume ↗</a></div><div class="status"><span class="dot"></span> Open to entry-level opportunities</div><h3>AWS Cloud Engineering &amp; DevOps</h3><p>Learning, building, and solving problems through practical cloud projects.</p><p class="location"><span aria-hidden="true">📍</span> Pune, Maharashtra, India</p></aside>
 </section>
-<section id="skills"><div class="section-head"><h2>Technical Skills</h2><p>Tools and technologies used in hands-on work</p></div><div class="skill-groups">
-<div class="skill-group"><h3>AWS Cloud &amp; Services</h3><div class="tags"><span class="tag">Amazon EC2</span><span class="tag">Amazon S3</span><span class="tag">IAM</span><span class="tag">VPC</span><span class="tag">Amazon RDS</span><span class="tag">AWS Lambda</span><span class="tag">CloudWatch</span><span class="tag">Application Load Balancer</span><span class="tag">Auto Scaling</span><span class="tag">Amazon ECR</span></div></div>
-<div class="skill-group"><h3>DevOps &amp; Infrastructure Automation</h3><div class="tags"><span class="tag">Jenkins</span><span class="tag">Docker</span><span class="tag">Terraform</span><span class="tag">CI/CD</span><span class="tag">Git</span><span class="tag">GitHub</span></div></div>
-<div class="skill-group"><h3>Operating Systems &amp; Programming</h3><div class="tags"><span class="tag">Linux (Ubuntu)</span><span class="tag">Python</span><span class="tag">Java</span><span class="tag">Bash / Shell</span></div></div>
-<div class="skill-group"><h3>Networking &amp; Databases</h3><div class="tags"><span class="tag">TCP/IP</span><span class="tag">DNS</span><span class="tag">HTTP/HTTPS</span><span class="tag">MySQL</span><span class="tag">MongoDB</span><span class="tag">DynamoDB</span><span class="tag">Nginx</span></div></div>
+<section id="skills"><div class="section-head"><h2>Technical Skills</h2><p>Tools and technologies used in hands-on work</p></div><div class="skill-rows">
+<div class="skill-row"><div class="skill-icon" aria-hidden="true">☁</div><div class="skill-category">AWS Cloud &amp; Services</div><div class="skill-items">Amazon EC2 <span>·</span> Amazon S3 <span>·</span> IAM <span>·</span> VPC <span>·</span> Amazon RDS <span>·</span> AWS Lambda <span>·</span> CloudWatch <span>·</span> Application Load Balancer <span>·</span> Auto Scaling <span>·</span> Amazon ECR</div></div>
+<div class="skill-row"><div class="skill-icon" aria-hidden="true">⎇</div><div class="skill-category">DevOps &amp; Infrastructure Automation</div><div class="skill-items">Jenkins <span>·</span> Docker <span>·</span> Terraform <span>·</span> CI/CD <span>·</span> Git <span>·</span> GitHub</div></div>
+<div class="skill-row"><div class="skill-icon" aria-hidden="true">⌘</div><div class="skill-category">Operating Systems &amp; Programming</div><div class="skill-items">Linux (Ubuntu) <span>·</span> Python <span>·</span> Java <span>·</span> Bash / Shell</div></div>
+<div class="skill-row"><div class="skill-icon" aria-hidden="true">⌁</div><div class="skill-category">Networking &amp; Databases</div><div class="skill-items">TCP/IP <span>·</span> DNS <span>·</span> HTTP/HTTPS <span>·</span> MySQL <span>·</span> MongoDB <span>·</span> DynamoDB <span>·</span> Nginx</div></div>
 </div></section>
 <section id="experience"><div class="section-head"><h2>Experience</h2><p>Internship experience</p></div><div class="cards">
 <article class="card"><div class="meta">Feb 2026 – Mar 2026 · Remote</div><h3>DevOps Engineer Intern — Zetheta Algorithms Pvt. Ltd.</h3><ul><li>Supported 3+ cloud and DevOps projects by configuring AWS and Linux environments, preparing infrastructure setups, and assisting Docker-based application deployments using Git.</li><li>Completed 100+ hours of hands-on DevOps work and 10+ deployment and automation tasks involving Jenkins CI/CD, deployment troubleshooting, log analysis, health checks, and system monitoring.</li></ul></article>
