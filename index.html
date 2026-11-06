@@ -129,6 +129,20 @@ footer{margin-top:65px;padding:28px 0;border-color:#263752;color:#7f91ad}
 .intro{max-width:650px}
 @media(max-width:760px){.skill-group{padding:20px}.skill-group .tag{font-size:.78rem}}
 
+
+/* Contact form */
+.contact-form{position:relative;z-index:1;margin:26px 0 8px;padding:25px;border:1px solid #3a5277;border-radius:18px;background:rgba(7,15,29,.72);display:grid;gap:15px}
+.contact-form h3{margin:0;font-size:1.2rem;letter-spacing:-.025em;color:#f1f6ff}
+.contact-form .form-intro{margin:-8px 0 2px;font-size:.88rem;color:#9eafc9}
+.contact-form label{display:grid;gap:7px;color:#dce8fb;font-size:.87rem;font-weight:700}
+.contact-form input,.contact-form textarea{width:100%;font:inherit;font-size:.94rem;color:#f3f7ff;background:#0b1526;border:1px solid #344b6d;border-radius:10px;padding:12px 14px;outline:none;transition:border-color .2s,box-shadow .2s}
+.contact-form input::placeholder,.contact-form textarea::placeholder{color:#71839f}
+.contact-form input:focus,.contact-form textarea:focus{border-color:#83c5ff;box-shadow:0 0 0 3px #83c5ff1c}
+.contact-form textarea{min-height:135px;resize:vertical}
+.contact-form button{justify-self:start;border:0;cursor:pointer;font:inherit;font-weight:800}
+.contact-form button:hover{filter:brightness(1.12)}
+@media(max-width:760px){.contact-form{padding:19px}.contact-form button{width:100%}}
+
 </style>
 </head>
 <body>
@@ -159,6 +173,23 @@ footer{margin-top:65px;padding:28px 0;border-color:#263752;color:#7f91ad}
 <a class="cert" href="https://simpli-web.app.link/e/JjdKdscoW6b" target="_blank" rel="noopener">GitHub Fundamentals<span>Simplilearn ↗</span></a>
 <a class="cert" href="https://drive.google.com/drive/folders/1CTeqdcJPi9OU3kIeuz-TSHYxF9ssIZC6" target="_blank" rel="noopener">Java Programming Fundamentals<span>Infosys Springboard ↗</span></a>
 </div></section>
-<section id="contact"><div class="contact-panel"><div class="overline">Let's connect</div><h2>Ready for the next opportunity.</h2><p>Seeking entry-level opportunities in AWS Cloud Engineering, Cloud Support, DevOps, and Cloud Operations.</p><div class="contact-links"><a href="mailto:nikhilmastud1@gmail.com">Email ↗</a><a href="tel:+918888076426">Call: +91 88880 76426</a><a href="https://wa.me/918888076426" target="_blank" rel="noopener">WhatsApp ↗</a><a href="https://linkedin.com/in/nikhilmastud" target="_blank" rel="noopener">LinkedIn ↗</a><a href="https://github.com/nikhilmastud" target="_blank" rel="noopener">GitHub ↗</a></div></div></section>
+<section id="contact"><div class="contact-panel"><div class="overline">Let's connect</div><h2>Ready for the next opportunity.</h2><p>Seeking entry-level opportunities in AWS Cloud Engineering, Cloud Support, DevOps, and Cloud Operations.</p><form class="contact-form" action="https://formsubmit.co/nikhilmastud1@gmail.com" method="POST">
+<h3>Send me a message</h3>
+<p class="form-intro">Have a question or want to discuss an opportunity? Leave a message below.</p>
+<input type="hidden" name="_subject" value="New message from your portfolio">
+<input type="hidden" name="_template" value="table">
+<input type="text" name="_honey" style="display:none">
+<label for="visitor-name">Name
+<input id="visitor-name" type="text" name="name" placeholder="Your name" autocomplete="name" required>
+</label>
+<label for="visitor-email">Email
+<input id="visitor-email" type="email" name="email" placeholder="you@example.com" autocomplete="email" required>
+</label>
+<label for="visitor-message">Message
+<textarea id="visitor-message" name="message" placeholder="Write your message..." required></textarea>
+</label>
+<button class="btn primary" type="submit">Send message ↗</button>
+</form>
+<div class="contact-links"><a href="mailto:nikhilmastud1@gmail.com">Email ↗</a><a href="tel:+918888076426">Call: +91 88880 76426</a><a href="https://wa.me/918888076426" target="_blank" rel="noopener">WhatsApp ↗</a><a href="https://linkedin.com/in/nikhilmastud" target="_blank" rel="noopener">LinkedIn ↗</a><a href="https://github.com/nikhilmastud" target="_blank" rel="noopener">GitHub ↗</a></div></div></section>
 <footer>© 2026 Nikhil Mastud · AWS Cloud &amp; DevOps Portfolio</footer>
 </main></body></html>
