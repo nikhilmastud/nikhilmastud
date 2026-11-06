@@ -46,6 +46,16 @@ Currently strengthening practical skills in **AWS, Linux, Docker, Jenkins, Terra
 
 [View Repository](https://github.com/nikhilmastud/Automated-Image-Processing-System)
 
+### 3. CloudNova – Serverless Application
+
+**AWS, Python, API Gateway, Lambda, DynamoDB, GitHub Actions, IAM, OIDC**
+
+- Built a Python-based serverless visitor-counter backend integrating **3 AWS services**—API Gateway, Lambda, and DynamoDB—to process visitor-count read and update operations through REST API requests.
+- Achieved a **100% API success rate** across **100 requests** and tested concurrent request handling with up to **10 workers**, recording an average API response time of **204 ms**.
+- Automated CI/CD deployments using GitHub Actions with IAM and OIDC authentication, reducing manual deployment effort by **80%** and completing **10+ successful deployment runs**.
+
+[View Repository](https://github.com/nikhilmastud/CloudNova-Serverless-Resume)
+
 ---
 
 ## 📜 Certifications
