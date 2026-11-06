@@ -101,14 +101,26 @@ footer{margin-top:65px;padding:28px 0;border-color:#263752;color:#7f91ad}
 .skill-group .tag{font-size:.78rem}
 @media(max-width:760px){.skill-groups{grid-template-columns:1fr;gap:13px}.skill-group{min-height:0;padding:20px}}
 
+/* Final readability pass: skill cards and profile details */
+.skill-group{min-height:0;padding:23px 24px;background:linear-gradient(145deg,rgba(20,35,58,.98),rgba(13,23,40,.98));border-color:#304766;box-shadow:0 14px 34px #0003}
+.skill-group h3{display:flex;align-items:center;gap:10px;padding-bottom:13px;border-bottom:1px solid #2a3e5d;font-size:1rem;color:#f0f5ff}
+.skill-group h3:before{content:"";display:block;width:4px;height:19px;border-radius:4px;background:linear-gradient(180deg,#83caff,#a99aff);flex:0 0 4px}
+.skill-group .tags{gap:9px}
+.skill-group .tag{padding:7px 12px;background:#1a2b45;border:1px solid #385477;color:#e5efff;font-size:.8rem;line-height:1.35;white-space:nowrap}
+.skill-group .tag:hover{background:#223b5e;border-color:#79b9f5}
+.location{display:inline-flex;align-items:center;gap:8px;width:max-content;max-width:100%;padding:7px 12px!important;margin-top:14px!important;border:1px solid #385477;border-radius:999px;background:#14243a;color:#d9e9ff!important;font-size:.82rem!important;letter-spacing:.01em}
+.location span{font-size:.95rem}
+.intro{max-width:650px}
+@media(max-width:760px){.skill-group{padding:20px}.skill-group .tag{font-size:.78rem}}
+
 </style>
 </head>
 <body>
 <header class="site-head"><nav class="wrap"><a class="brand" href="#top">NM<i>.</i></a><div class="navlinks"><a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#certifications">Certifications</a><a href="#contact">Contact</a></div></nav></header>
 <main class="wrap" id="top">
 <section class="hero" id="about">
-<div><div class="kicker">AWS Cloud · DevOps · Cloud Operations</div><h1>Hi, I'm<br><span class="gradient">Nikhil Mastud</span></h1><p class="intro"><strong>AWS Certified Cloud Practitioner</strong> and engineering graduate focused on <strong>AWS Cloud, DevOps, and Cloud Operations.</strong> I build hands-on projects in cloud infrastructure, serverless systems, containerization, and CI/CD automation.</p><div class="actions"><a class="btn primary" href="#projects">Explore projects ↓</a><a class="btn" href="https://github.com/nikhilmastud" target="_blank" rel="noopener">GitHub ↗</a><a class="btn" href="https://linkedin.com/in/nikhilmastud" target="_blank" rel="noopener">LinkedIn ↗</a></div></div>
-<aside class="profile-card"><div class="profile-top"><img class="portrait" src="profile.png" alt="Portrait of Nikhil Mastud"><a class="resume" href="Nikhil-Mastud-Resume.pdf" target="_blank" rel="noopener">Explore My Resume ↗</a></div><div class="status"><span class="dot"></span> Open to entry-level opportunities</div><h3>AWS Cloud Engineering &amp; DevOps</h3><p>Learning by building, solving problems, and continuously improving through hands-on cloud projects.</p><p class="location">⌖ Pune, Maharashtra, India</p></aside>
+<div><div class="kicker">AWS Cloud · DevOps · Cloud Operations</div><h1>Hi, I'm<br><span class="gradient">Nikhil Mastud</span></h1><p class="intro">Engineering graduate building practical cloud skills through hands-on projects. <strong>AWS Certified Cloud Practitioner</strong> focused on AWS Cloud, DevOps, and Cloud Operations.</p><div class="actions"><a class="btn primary" href="#projects">Explore projects ↓</a><a class="btn" href="https://github.com/nikhilmastud" target="_blank" rel="noopener">GitHub ↗</a><a class="btn" href="https://linkedin.com/in/nikhilmastud" target="_blank" rel="noopener">LinkedIn ↗</a></div></div>
+<aside class="profile-card"><div class="profile-top"><img class="portrait" src="profile.png" alt="Portrait of Nikhil Mastud"><a class="resume" href="Nikhil-Mastud-Resume.pdf" target="_blank" rel="noopener">Explore My Resume ↗</a></div><div class="status"><span class="dot"></span> Open to entry-level opportunities</div><h3>AWS Cloud Engineering &amp; DevOps</h3><p>Learning, building, and solving problems through practical cloud projects.</p><p class="location"><span aria-hidden="true">📍</span> Pune, Maharashtra, India</p></aside>
 </section>
 <section id="skills"><div class="section-head"><h2>Technical Skills</h2><p>Tools and technologies used in hands-on work</p></div><div class="skill-groups">
 <div class="skill-group"><h3>AWS Cloud &amp; Services</h3><div class="tags"><span class="tag">Amazon EC2</span><span class="tag">Amazon S3</span><span class="tag">IAM</span><span class="tag">VPC</span><span class="tag">Amazon RDS</span><span class="tag">AWS Lambda</span><span class="tag">CloudWatch</span><span class="tag">Application Load Balancer</span><span class="tag">Auto Scaling</span><span class="tag">Amazon ECR</span></div></div>
