@@ -12,8 +12,8 @@ Currently strengthening practical skills in **AWS, Linux, Docker, Jenkins, Terra
 
 | Area | Technologies |
 |---|---|
-| **AWS Cloud** | EC2, S3, IAM, VPC, RDS, Lambda, API Gateway, CloudFront, CloudWatch, ALB, Auto Scaling, ECR, Secrets Manager |
-| **DevOps, CI/CD & IaC** | Docker, Jenkins, Terraform, GitHub Actions, CI/CD, Git, GitHub |
+| **AWS Cloud** | EC2, S3, IAM, VPC, RDS, Lambda, API Gateway, CloudFront, CloudWatch, ALB, Auto Scaling, ECR |
+| **DevOps, CI/CD & IaC** | Docker, Jenkins, Terraform, CI/CD, Git, GitHub |
 | **Networking** | TCP/IP, DNS, HTTP/HTTPS, Subnets, Routing, Security Groups |
 | **Operating Systems** | Linux (Ubuntu), Windows |
 | **Programming & Scripting** | Python, Java, Bash/Shell |
@@ -29,7 +29,7 @@ Currently strengthening practical skills in **AWS, Linux, Docker, Jenkins, Terra
 **AWS, EC2, VPC, ALB, Auto Scaling, RDS, Terraform, CloudWatch**
 
 - Deployed a three-tier AWS architecture using Terraform, provisioning **52 cloud resources** in a dedicated VPC with public and private subnets across **two Availability Zones**.
-- Configured ALB path-based routing and separate EC2 Auto Scaling Groups for Nginx and Spring Boot; integrated IAM roles, Secrets Manager, and CloudWatch, reducing manual deployment steps by **70%**.
+- Configured ALB path-based routing and separate EC2 Auto Scaling Groups for Nginx and Spring Boot; integrated IAM roles and CloudWatch, reducing manual deployment steps by **70%**.
 - Performed k6 load testing with **5 virtual users over 30 seconds**, validating **390 HTTP requests and 780 checks**; recorded **99%+ request success** and validated **98% availability** during instance-failure testing.
 
 [View Repository](https://github.com/nikhilmastud/Netflix-style-3-tier-application)
@@ -48,11 +48,11 @@ Currently strengthening practical skills in **AWS, Linux, Docker, Jenkins, Terra
 ### 3. CloudNova – Serverless Application
 <sub>**AWS DEPLOYMENT VERIFIED**</sub>
 
-**AWS, Python, JavaScript, REST APIs, API Gateway, Lambda, DynamoDB, GitHub Actions, IAM, OIDC**
+**AWS, Python, JavaScript, REST APIs, API Gateway, Lambda, DynamoDB, IAM, OIDC**
 
 - Built a Python-based serverless visitor-counter backend integrating **3 AWS services**—API Gateway, Lambda, and DynamoDB—to process visitor-count read and update operations through REST API requests.
 - Achieved a **100% API success rate** across **100 requests** and tested concurrent request handling with up to **10 workers**, recording an average API response time of **204 ms**.
-- Automated CI/CD deployments using GitHub Actions with IAM and OIDC authentication, reducing manual deployment effort by **80%** across **10+ successful deployment runs**.
+- Automated CI/CD deployments using IAM and OIDC authentication, reducing manual deployment effort by **80%** across **10+ successful deployment runs**.
 
 *AWS hosting resources were decommissioned after deployment and performance validation to avoid ongoing costs.*
 
@@ -63,8 +63,10 @@ Currently strengthening practical skills in **AWS, Linux, Docker, Jenkins, Terra
 ## 📜 Certifications
 
 - [**AWS Certified Cloud Practitioner (CLF-C02)**](https://cp.certmetrics.com/amazon/en/public/verify/credential/c6bf63c29b6c457b96cf8ddd1e76f1c2) — Amazon Web Services
-- [**Oracle Cloud Infrastructure Foundations Associate**](https://catalog-education.oracle.com/pls/certview/sharebadge?id=2ED05EA432C23ADF0BC4F2F0C41D57FB1E82AB767A864AF883E73B27E2FE05CE) — Oracle
+- [**Oracle Cloud Infrastructure Certified Foundations Associate**](https://catalog-education.oracle.com/pls/certview/sharebadge?id=2ED05EA432C23ADF0BC4F2F0C41D57FB1E82AB767A864AF883E73B27E2FE05CE) — Oracle
 - [**GitHub Fundamentals**](https://simpli-web.app.link/e/JjdKdscoW6b) — Simplilearn
+
+- [**Java Fundamentals & Java SE 8**](https://drive.google.com/drive/folders/1CTeqdcJPi9OU3kIeuz-TSHYxF9ssIZL6) — Infosys Springboard
 
 ---
 
@@ -78,5 +80,6 @@ Entry-level opportunities in **AWS Cloud Engineering, Cloud Support, DevOps, and
 
 - **LinkedIn:** [linkedin.com/in/nikhilmastud](https://www.linkedin.com/in/nikhilmastud/)
 - **GitHub:** [github.com/nikhilmastud](https://github.com/nikhilmastud)
+- **Portfolio:** [nikhilmastud.github.io/nikhilmastud](https://nikhilmastud.github.io/nikhilmastud/)
 
 ---
