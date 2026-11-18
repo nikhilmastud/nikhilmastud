@@ -12,9 +12,8 @@ Currently strengthening practical skills in **AWS, Linux, Docker, Jenkins, Terra
 
 | Area | Technologies |
 |---|---|
-| **AWS Cloud** | EC2, S3, IAM, VPC, RDS, Lambda, CloudWatch, ALB, Auto Scaling, ECR |
-| **DevOps & CI/CD** | Jenkins, Docker, CI/CD, Git, GitHub |
-| **Infrastructure as Code** | Terraform |
+| **AWS Cloud** | EC2, S3, IAM, VPC, RDS, Lambda, API Gateway, CloudFront, CloudWatch, ALB, Auto Scaling, ECR, Secrets Manager |
+| **DevOps, CI/CD & IaC** | Docker, Jenkins, Terraform, GitHub Actions, CI/CD, Git, GitHub |
 | **Networking** | TCP/IP, DNS, HTTP/HTTPS, Subnets, Routing, Security Groups |
 | **Operating Systems** | Linux (Ubuntu), Windows |
 | **Programming & Scripting** | Python, Java, Bash/Shell |
@@ -47,12 +46,15 @@ Currently strengthening practical skills in **AWS, Linux, Docker, Jenkins, Terra
 [View Repository](https://github.com/nikhilmastud/Automated-Image-Processing-System)
 
 ### 3. CloudNova – Serverless Application
+<sub>**AWS DEPLOYMENT VERIFIED**</sub>
 
-**AWS, Python, API Gateway, Lambda, DynamoDB, GitHub Actions, IAM, OIDC**
+**AWS, Python, JavaScript, REST APIs, API Gateway, Lambda, DynamoDB, GitHub Actions, IAM, OIDC**
 
 - Built a Python-based serverless visitor-counter backend integrating **3 AWS services**—API Gateway, Lambda, and DynamoDB—to process visitor-count read and update operations through REST API requests.
 - Achieved a **100% API success rate** across **100 requests** and tested concurrent request handling with up to **10 workers**, recording an average API response time of **204 ms**.
-- Automated CI/CD deployments using GitHub Actions with IAM and OIDC authentication, reducing manual deployment effort by **80%** and completing **10+ successful deployment runs**.
+- Automated CI/CD deployments using GitHub Actions with IAM and OIDC authentication, reducing manual deployment effort by **80%** across **10+ successful deployment runs**.
+
+*AWS hosting resources were decommissioned after deployment and performance validation to avoid ongoing costs.*
 
 [View Repository](https://github.com/nikhilmastud/CloudNova-Serverless-Resume)
 
