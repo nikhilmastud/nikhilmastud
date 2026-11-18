@@ -72,7 +72,7 @@ Currently strengthening practical skills in **AWS, Linux, Docker, Jenkins, Terra
 
 ## 🎯 Career Interests
 
-Entry-level opportunities in **AWS Cloud Engineering, Cloud Support, DevOps, and Cloud Operations**.
+Seeking entry-level opportunities as an **AWS Cloud Engineer, Junior DevOps Engineer, Cloud Support Associate, or Cloud Operations Associate**, including **Cloud and DevOps Trainee** roles.
 
 ---
 
